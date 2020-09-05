@@ -2,7 +2,7 @@
 import sys
 sys.path.append("c:\\Users\\rdhavade\\OneDrive\\OneDrive - Cisco\\working_directory\\FoodApp\\FoodAPI")
 sys.path.append("..")
-from flask import Flask 
+from flask import Flask, request
 from flask_restful import abort, Api, fields, marshal_with, reqparse, Resource 
 from datetime import datetime 
 from models import UserModel 
@@ -157,6 +157,8 @@ class validate_username(Resource):
     def post(self):
         write_to_file('user-api-logs.txt','INSIDE CLASS validate_username method get()\n')
         parser = reqparse.RequestParser()
+        headers = request.headers
+        write_to_file('  RECEIVED HEADERS AS : ' + str(headers) + '\n')
         parser.add_argument('username', type=str, required=True, help='username is required.')
         parser.add_argument('password', type=str, required=True, help='password is required.')
         args = parser.parse_args()
@@ -187,5 +189,6 @@ api.add_resource(UserList, '/api/users/')
 api.add_resource(User, '/api/users/<int:id>', endpoint='message_endpoint')
 api.add_resource(check_username,'/api/users/check_username')
 api.add_resource(validate_username,'/api/users/validate_username')
+
 if __name__ == '__main__': 
     app.run(debug=True)

@@ -163,4 +163,31 @@ inside class ModelManager add_restaurant()
   Data type for menu is : <class 'dict'>
   Data type for cuisine is : <class 'list'>
 inside RestaurantList class get()
-  get list of restaurants : {1: {'id': 1, 'name': 'Royal Foods1101', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 12, 44, 13, 132247, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}, 2: {'id': 2, 'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 12, 54, 2, 422957, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}}
+  get list of restaurants : {1: {'id': 1, 'name': 'Royal Foods1101', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 12, 44, 13, 132247, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}, 2: {'id': 2, 'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 12, 54, 2, 422957, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}}started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x00000190D4C69880>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x00000190D34E3AF0>
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001E745DD9880>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x000001E744633AF0>
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001C7F9C79880>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x000001C7F84D3AF0>
+inside RestaurantList class post()
+  arguments parsed in POST request are : {'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}
+  A RestaurantModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 14, 4, 7, 717177, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}
+inside class ModelManager add_restaurant()
+  value of restaurant.id is : 1
+  value of restaurant is : {'id': 1, 'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 14, 4, 7, 717177, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}
+  POST method returns : {'id': 1, 'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 14, 4, 7, 717177, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}} 201
+  Data type for contact is : <class 'list'>
+  Data type for menu is : <class 'dict'>
+  Data type for cuisine is : <class 'list'>

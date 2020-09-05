@@ -9,10 +9,22 @@ from models import RestaurantModel
 import status 
 from pytz import utc
 from user_api import *
+from flask import Flask
+from flask_cors import CORS
 
 #CREATING API
 app = Flask(__name__) 
 api = Api(app)
+
+"""
+Next code line is explained as:
+In the simplest case, initialize the Flask-Cors extension with default arguments 
+in order to allow CORS for all domains on all routes.
+This is required for requests coming in from ANGULAR JS which has OPTIONS request first that checks CORS for origins that are allowed
+to access the resource.
+https://flask-cors.readthedocs.io/en/latest/
+"""
+CORS(app)
 
 #RESTAURANT API
 api.add_resource(RestaurantList, '/api/restaurants/')
