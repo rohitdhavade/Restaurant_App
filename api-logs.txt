@@ -191,3 +191,15 @@ inside class ModelManager add_restaurant()
   Data type for contact is : <class 'list'>
   Data type for menu is : <class 'dict'>
   Data type for cuisine is : <class 'list'>
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001F8977398B0>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x000001F895FA3B80>
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000021EF11F98B0>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x0000021EEFA63B80>

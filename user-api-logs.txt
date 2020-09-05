@@ -132,4 +132,18 @@
 05-Sep-2020 19:28:44 creating instance of ModelManager class named message_manager
 05-Sep-2020 19:28:44 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x000001C7F9CBAA90>
 05-Sep-2020 19:29:03 inside UserList class get()
-05-Sep-2020 19:29:03   get list of users : {}
+05-Sep-2020 19:29:03   get list of users : {}05-Sep-2020 19:44:22 started code
+05-Sep-2020 19:44:23 inside class ModelManager __init__
+05-Sep-2020 19:44:23   value of users dict is : {}05-Sep-2020 19:44:23 started code
+05-Sep-2020 19:44:23 creating dictionary message_fields
+05-Sep-2020 19:44:23   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001F8977797F0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+05-Sep-2020 19:44:23 creating instance of ModelManager class named message_manager
+05-Sep-2020 19:44:23 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x000001F897779AC0>
+05-Sep-2020 19:44:23 started code
+05-Sep-2020 19:44:24 inside class ModelManager __init__
+05-Sep-2020 19:44:24   value of users dict is : {}05-Sep-2020 19:44:24 started code
+05-Sep-2020 19:44:24 creating dictionary message_fields
+05-Sep-2020 19:44:24   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000021EF12397F0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+05-Sep-2020 19:44:24 creating instance of ModelManager class named message_manager
+05-Sep-2020 19:44:24 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x0000021EF1239AC0>
+05-Sep-2020 19:45:05 INSIDE CLASS validate_username method get()
