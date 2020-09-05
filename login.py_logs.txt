@@ -42,3 +42,25 @@
 05-Sep-2020 19:44:23   obtained users_dict as : {}
 05-Sep-2020 19:44:24 INSIDE CLASS LoginWithInMemoryDb
 05-Sep-2020 19:44:24   obtained users_dict as : {}
+05-Sep-2020 19:47:23 INSIDE CLASS LoginWithInMemoryDb
+05-Sep-2020 19:47:23   obtained users_dict as : {}
+05-Sep-2020 19:47:24 INSIDE CLASS LoginWithInMemoryDb
+05-Sep-2020 19:47:24   obtained users_dict as : {}
+05-Sep-2020 19:49:51 INSIDE CLASS LoginWithInMemoryDb
+05-Sep-2020 19:49:51   obtained users_dict as : {}
+05-Sep-2020 19:49:52 INSIDE CLASS LoginWithInMemoryDb
+05-Sep-2020 19:49:52   obtained users_dict as : {}
+05-Sep-2020 19:51:17 INSIDE CLASS LoginInterface constructor __init__
+05-Sep-2020 19:51:17   instance created as username:password - wwe:wfewewe
+05-Sep-2020 19:51:37 INSIDE CLASS LoginInterface constructor __init__
+05-Sep-2020 19:51:37   instance created as username:password - rdhavade2:bhai123
+05-Sep-2020 19:52:05 INSIDE CLASS LoginInterface constructor __init__
+05-Sep-2020 19:52:05   instance created as username:password - rdhavade5:bhai123
+05-Sep-2020 19:52:39 INSIDE CLASS LoginInterface constructor __init__
+05-Sep-2020 19:52:39   instance created as username:password - rdhavade3:bhai123
+05-Sep-2020 19:52:39 INSIDE CLASS LoginInterface constructor __init__
+05-Sep-2020 19:52:39   instance created as username:password - rdhavade3:bhai123
+05-Sep-2020 19:53:04 INSIDE CLASS LoginInterface constructor __init__
+05-Sep-2020 19:53:04   instance created as username:password - rdhavade3:bhai123
+05-Sep-2020 19:53:26 INSIDE CLASS LoginInterface constructor __init__
+05-Sep-2020 19:53:26   instance created as username:password - rdhavade3:bhai123

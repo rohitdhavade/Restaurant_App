@@ -147,3 +147,157 @@
 05-Sep-2020 19:44:24 creating instance of ModelManager class named message_manager
 05-Sep-2020 19:44:24 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x0000021EF1239AC0>
 05-Sep-2020 19:45:05 INSIDE CLASS validate_username method get()
+05-Sep-2020 19:47:23 started code
+05-Sep-2020 19:47:23 inside class ModelManager __init__
+05-Sep-2020 19:47:23   value of users dict is : {}05-Sep-2020 19:47:23 started code
+05-Sep-2020 19:47:23 creating dictionary message_fields
+05-Sep-2020 19:47:23   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000020D09003A90>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+05-Sep-2020 19:47:23 creating instance of ModelManager class named message_manager
+05-Sep-2020 19:47:23 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x0000020D0A7D9AC0>
+05-Sep-2020 19:47:24 started code
+05-Sep-2020 19:47:24 inside class ModelManager __init__
+05-Sep-2020 19:47:24   value of users dict is : {}05-Sep-2020 19:47:24 started code
+05-Sep-2020 19:47:24 creating dictionary message_fields
+05-Sep-2020 19:47:24   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x00000213814297F0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+05-Sep-2020 19:47:24 creating instance of ModelManager class named message_manager
+05-Sep-2020 19:47:24 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x0000021381429AC0>
+05-Sep-2020 19:47:47 INSIDE CLASS validate_username method get()
+05-Sep-2020 19:49:50 started code
+05-Sep-2020 19:49:51 inside class ModelManager __init__
+05-Sep-2020 19:49:51   value of users dict is : {}05-Sep-2020 19:49:51 started code
+05-Sep-2020 19:49:51 creating dictionary message_fields
+05-Sep-2020 19:49:51   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000022852353A90>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+05-Sep-2020 19:49:51 creating instance of ModelManager class named message_manager
+05-Sep-2020 19:49:51 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x0000022853B39AC0>
+05-Sep-2020 19:49:52 started code
+05-Sep-2020 19:49:52 inside class ModelManager __init__
+05-Sep-2020 19:49:52   value of users dict is : {}05-Sep-2020 19:49:52 started code
+05-Sep-2020 19:49:52 creating dictionary message_fields
+05-Sep-2020 19:49:52   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000002523FFB97F0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+05-Sep-2020 19:49:52 creating instance of ModelManager class named message_manager
+05-Sep-2020 19:49:52 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x000002523FFB9AC0>
+05-Sep-2020 19:50:17 INSIDE CLASS validate_username method get()
+05-Sep-2020 19:50:17   RECEIVED HEADERS AS : Host: 42293e574d9d.ngrok.io
+Content-Length: 37
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Content-Type: application/json
+Origin: http://localhost:4200
+Referer: http://localhost:4200/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 2405:201:1e:d1ec:9df:28c:d1de:3e00
+
+
+05-Sep-2020 19:51:17 INSIDE CLASS validate_username method get()
+05-Sep-2020 19:51:17   RECEIVED HEADERS AS : Host: 42293e574d9d.ngrok.io
+Content-Length: 39
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Content-Type: application/json
+Origin: http://localhost:4200
+Referer: http://localhost:4200/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 2405:201:1e:d1ec:9df:28c:d1de:3e00
+
+
+05-Sep-2020 19:51:17   value of args parsed from GET REQ are :{'username': 'wwe', 'password': 'wfewewe'}
+05-Sep-2020 19:51:17   result obtained from validate_username as: {'Authentication_Status:': 'Username_Does_Not_Exist'}
+05-Sep-2020 19:51:37 INSIDE CLASS validate_username method get()
+05-Sep-2020 19:51:37   RECEIVED HEADERS AS : Host: 42293e574d9d.ngrok.io
+Content-Length: 45
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Content-Type: application/json
+Origin: http://localhost:4200
+Referer: http://localhost:4200/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 2405:201:1e:d1ec:9df:28c:d1de:3e00
+
+
+05-Sep-2020 19:51:37   value of args parsed from GET REQ are :{'username': 'rdhavade2', 'password': 'bhai123'}
+05-Sep-2020 19:51:37   result obtained from validate_username as: {'Authentication_Status:': 'Username_Does_Not_Exist'}
+05-Sep-2020 19:52:05 INSIDE CLASS validate_username method get()
+05-Sep-2020 19:52:05   RECEIVED HEADERS AS : Host: 42293e574d9d.ngrok.io
+Content-Length: 45
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Content-Type: application/json
+Origin: http://localhost:4200
+Referer: http://localhost:4200/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 2405:201:1e:d1ec:9df:28c:d1de:3e00
+
+
+05-Sep-2020 19:52:05   value of args parsed from GET REQ are :{'username': 'rdhavade5', 'password': 'bhai123'}
+05-Sep-2020 19:52:05   result obtained from validate_username as: {'Authentication_Status:': 'Username_Does_Not_Exist'}
+05-Sep-2020 19:52:39 INSIDE CLASS validate_username method get()
+05-Sep-2020 19:52:39   RECEIVED HEADERS AS : Host: 42293e574d9d.ngrok.io
+Content-Length: 45
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Content-Type: application/json
+Origin: http://localhost:4200
+Referer: http://localhost:4200/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 2405:201:1e:d1ec:9df:28c:d1de:3e00
+
+
+05-Sep-2020 19:52:39   value of args parsed from GET REQ are :{'username': 'rdhavade3', 'password': 'bhai123'}
+05-Sep-2020 19:52:39   result obtained from validate_username as: {'Authentication_Status:': 'Username_Does_Not_Exist'}
+05-Sep-2020 19:52:39 INSIDE CLASS validate_username method get()
+05-Sep-2020 19:52:39   RECEIVED HEADERS AS : Host: 42293e574d9d.ngrok.io
+Content-Length: 45
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Content-Type: application/json
+Origin: http://localhost:4200
+Referer: http://localhost:4200/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 2405:201:1e:d1ec:9df:28c:d1de:3e00
+
+
+05-Sep-2020 19:52:39   value of args parsed from GET REQ are :{'username': 'rdhavade3', 'password': 'bhai123'}
+05-Sep-2020 19:52:39   result obtained from validate_username as: {'Authentication_Status:': 'Username_Does_Not_Exist'}
+05-Sep-2020 19:53:04 INSIDE CLASS validate_username method get()
+05-Sep-2020 19:53:04   RECEIVED HEADERS AS : Host: 42293e574d9d.ngrok.io
+Content-Length: 45
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Content-Type: application/json
+Origin: http://localhost:4200
+Referer: http://localhost:4200/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 2405:201:1e:d1ec:9df:28c:d1de:3e00
+
+
+05-Sep-2020 19:53:04   value of args parsed from GET REQ are :{'username': 'rdhavade3', 'password': 'bhai123'}
+05-Sep-2020 19:53:04   result obtained from validate_username as: {'Authentication_Status:': 'Username_Does_Not_Exist'}
+05-Sep-2020 19:53:17 inside UserList class post()
+05-Sep-2020 19:53:17   arguments parsed in POST request are : {'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': None, 'username': 'rdhavade3', 'password': 'bhai123', 'user_type': 'admin'}
+05-Sep-2020 19:53:17   A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': 0, 'username': 'rdhavade3', 'password': 'bhai123', 'creation_date': datetime.datetime(2020, 9, 5, 19, 53, 17), 'user_type': 'admin'}
+05-Sep-2020 19:53:17 inside class ModelManager add_user()
+05-Sep-2020 19:53:17   value of user.id is : 1
+05-Sep-2020 19:53:17   value of user is : {'id': 1, 'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': 0, 'username': 'rdhavade3', 'password': 'bhai123', 'creation_date': datetime.datetime(2020, 9, 5, 19, 53, 17), 'user_type': 'admin'}
+05-Sep-2020 19:53:17   POST method returns : {'id': 1, 'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': 0, 'username': 'rdhavade3', 'password': 'bhai123', 'creation_date': datetime.datetime(2020, 9, 5, 19, 53, 17), 'user_type': 'admin'} 201
+05-Sep-2020 19:53:26 INSIDE CLASS validate_username method get()
+05-Sep-2020 19:53:26   RECEIVED HEADERS AS : Host: 42293e574d9d.ngrok.io
+Content-Length: 45
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Content-Type: application/json
+Origin: http://localhost:4200
+Referer: http://localhost:4200/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 2405:201:1e:d1ec:9df:28c:d1de:3e00
+
+
+05-Sep-2020 19:53:26   value of args parsed from GET REQ are :{'username': 'rdhavade3', 'password': 'bhai123'}
+05-Sep-2020 19:53:26   result obtained from validate_username as: {'Authentication_Status:': 'Authentication_Success'}

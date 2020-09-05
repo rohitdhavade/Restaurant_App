@@ -158,7 +158,7 @@ class validate_username(Resource):
         write_to_file('user-api-logs.txt','INSIDE CLASS validate_username method get()\n')
         parser = reqparse.RequestParser()
         headers = request.headers
-        write_to_file('user-api-logs.txt,  RECEIVED HEADERS AS : ' + str(headers) + '\n')
+        write_to_file('user-api-logs.txt','  RECEIVED HEADERS AS : ' + str(headers) + '\n')
         parser.add_argument('username', type=str, required=True, help='username is required.')
         parser.add_argument('password', type=str, required=True, help='password is required.')
         args = parser.parse_args()
