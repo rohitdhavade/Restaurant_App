@@ -14,7 +14,7 @@ write_to_file('api-logs.txt','started code\n')
 # Below class ModelManager is used to manage our resource with add, get, delete methods.
 # these methods may operate with the database like, SQL to perform the required actions i.e. add, get, delete etc.
 class ModelManager():
-    last_id = 0 
+    last_id = 0
     def __init__(self):
         write_to_file('api-logs.txt','inside class ModelManager __init__\n')
         self.restaurants = {} # dictionary of RestaurantModel class instances
@@ -26,7 +26,6 @@ class ModelManager():
         write_to_file('api-logs.txt','  value of restaurant.id is : ' + str(restaurant.id) + '\n')
         write_to_file('api-logs.txt','  value of restaurant is : ' + str(restaurant)+ '\n')
         self.restaurants[self.__class__.last_id] = restaurant
- 
     def get_restaurant(self, id):
         write_to_file('api-logs.txt','inside class ModelManager get_restaurant()\n')
         write_to_file('api-logs.txt','  value of id is : ' + str(id) + '\n')

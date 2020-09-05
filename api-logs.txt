@@ -1,0 +1,114 @@
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x00000133ACA23E20>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x00000133ACA23EB0>
+inside class ModelManager __init__
+  value of restaurants dict is : {}started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001D7BD9F3E80>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x000001D7BD9F3F10>
+inside class ModelManager __init__
+  value of restaurants dict is : {}started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001D6E8063E80>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x000001D6E8063F10>
+inside class ModelManager __init__
+  value of restaurants dict is : {}started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000025613BF3EB0>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x0000025613BF3F40>
+inside class ModelManager __init__
+  value of restaurants dict is : {}started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001C6E36C3E80>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x000001C6E36C3F10>
+inside class ModelManager __init__
+  value of restaurants dict is : {}inside class ModelManager add_restaurant()
+  value of restaurant.id is : 1
+  value of restaurant is : {'id': 1, 'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 17, 2, 35, 589569), 'cuisine': ['North Indian', 'Chinese'], 'contact': ['9232923200', '8600049998'], 'menu': {'Fried Rice': 'INR.150', 'Chicken65': 'INR.200', 'Chicken Tandoori': 'INR.300'}}
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000017BAFCD3E80>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x0000017BAFCD3F10>
+inside class ModelManager __init__
+  value of restaurants dict is : {}inside class ModelManager add_restaurant()
+  value of restaurant.id is : 1
+  value of restaurant is : {'id': 1, 'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 17, 3, 53, 718356), 'cuisine': ['North Indian', 'Chinese'], 'contact': ['9232923200', '8600049998'], 'menu': {'Fried Rice': 'INR.150', 'Chicken65': 'INR.200', 'Chicken Tandoori': 'INR.300'}}
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001B198603E80>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x000001B198603F10>
+inside class ModelManager __init__
+  value of restaurants dict is : {}inside class ModelManager add_restaurant()
+  value of restaurant.id is : 1
+  value of restaurant is : {'id': 1, 'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 17, 5, 4, 428900), 'cuisine': ['North Indian', 'Chinese'], 'contact': ['9232923200', '8600049998'], 'menu': {'Fried Rice': 'INR.150', 'Chicken65': 'INR.200', 'Chicken Tandoori': 'INR.300'}}
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001C8C48B3E80>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x000001C8C48B3F10>
+inside class ModelManager __init__
+  value of restaurants dict is : {}inside class ModelManager add_restaurant()
+  value of restaurant.id is : 1
+  value of restaurant is : {'id': 1, 'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 17, 7, 29, 9409), 'cuisine': ['North Indian', 'Chinese'], 'contact': ['9232923200', '8600049998'], 'menu': {'Fried Rice': 'INR.150', 'Chicken65': 'INR.200', 'Chicken Tandoori': 'INR.300'}}
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000018B63993E80>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x0000018B63993F10>
+inside class ModelManager __init__
+  value of restaurants dict is : {}inside class ModelManager add_restaurant()
+  value of restaurant.id is : 1
+  value of restaurant is : {'id': 1, 'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 17, 7, 42, 600340), 'cuisine': ['North Indian', 'Chinese'], 'contact': ['9232923200', '8600049998'], 'menu': {'Fried Rice': 'INR.150', 'Chicken65': 'INR.200', 'Chicken Tandoori': 'INR.300'}}
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000027CEA0E3EB0>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x0000027CEA0E3F40>
+inside class ModelManager __init__
+  value of restaurants dict is : {}inside class ModelManager add_restaurant()
+  value of restaurant.id is : 1
+  value of restaurant is : {'id': 1, 'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 17, 37, 54, 98092), 'cuisine': ['North Indian', 'Chinese'], 'contact': ['9232923200', '8600049998'], 'menu': {'Fried Rice': 'INR.150', 'Chicken65': 'INR.200', 'Chicken Tandoori': 'INR.300'}}
+inside class ModelManager get_restaurant()
+  value of id is : 1
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000002232BE53EB0>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x000002232BE53F40>
+inside class ModelManager __init__
+  value of restaurants dict is : {}inside class ModelManager add_restaurant()
+  value of restaurant.id is : 1
+  value of restaurant is : {'id': 1, 'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 17, 40, 21, 921283), 'cuisine': ['North Indian', 'Chinese'], 'contact': ['9232923200', '8600049998'], 'menu': {'Fried Rice': 'INR.150', 'Chicken65': 'INR.200', 'Chicken Tandoori': 'INR.300'}}
+inside class ModelManager get_restaurant()
+  value of id is : 1
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001C7A9D53EB0>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <api.ModelManager object at 0x000001C7A9D53F40>
+inside class ModelManager __init__
+  value of restaurants dict is : {}inside class ModelManager add_restaurant()
+  value of restaurant.id is : 1
+  value of restaurant is : {'id': 1, 'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 17, 42, 7, 154028), 'cuisine': ['North Indian', 'Chinese'], 'contact': ['9232923200', '8600049998'], 'menu': {'Fried Rice': 'INR.150', 'Chicken65': 'INR.200', 'Chicken Tandoori': 'INR.300'}}
+inside class ModelManager get_restaurant()
+  value of id is : 1

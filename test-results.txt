@@ -1,0 +1,7 @@
+05-Sep-2020 17:07:42 SUCCESS:Test to add restaurant succeeded.api.py.ModelManager.add_restaurant()
+05-Sep-2020 17:37:54 SUCCESS:Test to add restaurant succeeded.api.py.ModelManager.add_restaurant()
+05-Sep-2020 17:37:54 FAILED:Test to get restaurant failed. Restaurant Object is not instance of api.py.ModelManager
+05-Sep-2020 17:40:22 SUCCESS:Test to add restaurant succeeded.api.py.ModelManager.add_restaurant()
+05-Sep-2020 17:40:22 SUCCESS: Test to get restaurant succeeded.api.py.ModelManager.get_restaurant()
+05-Sep-2020 17:42:07 SUCCESS:Test to add restaurant succeeded.api.py.ModelManager.add_restaurant()
+05-Sep-2020 17:42:07 SUCCESS: Test to get restaurant succeeded.api.py.ModelManager.get_restaurant()
