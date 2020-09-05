@@ -152,3 +152,15 @@ inside class ModelManager add_restaurant()
   Data type for contact is : <class 'list'>
   Data type for menu is : <class 'dict'>
   Data type for cuisine is : <class 'list'>
+inside RestaurantList class post()
+  arguments parsed in POST request are : {'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}
+  A RestaurantModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 12, 54, 2, 422957, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}
+inside class ModelManager add_restaurant()
+  value of restaurant.id is : 2
+  value of restaurant is : {'id': 2, 'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 12, 54, 2, 422957, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}
+  POST method returns : {'id': 2, 'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 12, 54, 2, 422957, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}} 201
+  Data type for contact is : <class 'list'>
+  Data type for menu is : <class 'dict'>
+  Data type for cuisine is : <class 'list'>
+inside RestaurantList class get()
+  get list of restaurants : {1: {'id': 1, 'name': 'Royal Foods1101', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 12, 44, 13, 132247, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}, 2: {'id': 2, 'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 5, 12, 54, 2, 422957, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}}

@@ -94,3 +94,15 @@
 05-Sep-2020 18:14:13 INSIDE CLASS validate_username method get()
 05-Sep-2020 18:14:13   value of args parsed from GET REQ are :{'username': 'rdhavade2', 'password': 'bhai123'}
 05-Sep-2020 18:14:13   result obtained from validate_username as: {'Authentication_Status:': 'Authentication_Success'}
+05-Sep-2020 18:19:29 INSIDE CLASS validate_username method get()
+05-Sep-2020 18:19:29   value of args parsed from GET REQ are :{'username': 'rdhavade2', 'password': 'bhai123'}
+05-Sep-2020 18:19:29   result obtained from validate_username as: {'Authentication_Status:': 'Authentication_Success'}
+05-Sep-2020 18:23:49 inside UserList class post()
+05-Sep-2020 18:23:49   arguments parsed in POST request are : {'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': None, 'username': 'rdhavade3', 'password': 'bhai123', 'user_type': 'admin'}
+05-Sep-2020 18:23:49   A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': 0, 'username': 'rdhavade3', 'password': 'bhai123', 'creation_date': datetime.datetime(2020, 9, 5, 18, 23, 49), 'user_type': 'admin'}
+05-Sep-2020 18:23:49 inside class ModelManager add_user()
+05-Sep-2020 18:23:49   value of user.id is : 2
+05-Sep-2020 18:23:49   value of user is : {'id': 2, 'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': 0, 'username': 'rdhavade3', 'password': 'bhai123', 'creation_date': datetime.datetime(2020, 9, 5, 18, 23, 49), 'user_type': 'admin'}
+05-Sep-2020 18:23:49   POST method returns : {'id': 2, 'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': 0, 'username': 'rdhavade3', 'password': 'bhai123', 'creation_date': datetime.datetime(2020, 9, 5, 18, 23, 49), 'user_type': 'admin'} 201
+05-Sep-2020 18:24:10 inside UserList class get()
+05-Sep-2020 18:24:10   get list of users : {1: {'id': 1, 'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': 0, 'username': 'rdhavade2', 'password': 'bhai123', 'creation_date': datetime.datetime(2020, 9, 5, 18, 14, 7), 'user_type': 'admin'}, 2: {'id': 2, 'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': 0, 'username': 'rdhavade3', 'password': 'bhai123', 'creation_date': datetime.datetime(2020, 9, 5, 18, 23, 49), 'user_type': 'admin'}}
