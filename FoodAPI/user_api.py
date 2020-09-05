@@ -154,7 +154,7 @@ class check_username(Resource):
         return_dict = {'username':username,'username_exists':username_exists}
         return return_dict
 class validate_username(Resource):
-    def get(self):
+    def post(self):
         write_to_file('user-api-logs.txt','INSIDE CLASS validate_username method get()\n')
         parser = reqparse.RequestParser()
         parser.add_argument('username', type=str, required=True, help='username is required.')

@@ -1,3 +1,39 @@
 04-Sep-2020 20:18:22 started code
 04-Sep-2020 20:18:23 inside class ModelManager __init__
-04-Sep-2020 20:18:23   value of users dict is : {}
+04-Sep-2020 20:18:23   value of users dict is : {}05-Sep-2020 17:50:39 started code
+05-Sep-2020 17:50:39 inside class ModelManager __init__
+05-Sep-2020 17:50:39   value of users dict is : {}05-Sep-2020 17:50:39 started code
+05-Sep-2020 17:50:39 creating dictionary message_fields
+05-Sep-2020 17:50:39   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x00000192D1A8A7C0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+05-Sep-2020 17:50:39 creating instance of ModelManager class named message_manager
+05-Sep-2020 17:50:39 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x00000192D1A8AA90>
+05-Sep-2020 17:50:41 started code
+05-Sep-2020 17:50:41 inside class ModelManager __init__
+05-Sep-2020 17:50:41   value of users dict is : {}05-Sep-2020 17:50:41 started code
+05-Sep-2020 17:50:41 creating dictionary message_fields
+05-Sep-2020 17:50:41   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000002B5C1E3A7C0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+05-Sep-2020 17:50:41 creating instance of ModelManager class named message_manager
+05-Sep-2020 17:50:41 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x000002B5C1E3AA90>
+05-Sep-2020 17:58:26 inside UserList class post()
+05-Sep-2020 17:58:26   arguments parsed in POST request are : {'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': None, 'username': 'rdhavade2', 'password': 'bhai123', 'user_type': 'admin'}
+05-Sep-2020 17:58:26   A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': 0, 'username': 'rdhavade2', 'password': 'bhai123', 'creation_date': datetime.datetime(2020, 9, 5, 17, 58, 26), 'user_type': 'admin'}
+05-Sep-2020 17:58:26 inside class ModelManager add_user()
+05-Sep-2020 17:58:26   value of user.id is : 1
+05-Sep-2020 17:58:26   value of user is : {'id': 1, 'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': 0, 'username': 'rdhavade2', 'password': 'bhai123', 'creation_date': datetime.datetime(2020, 9, 5, 17, 58, 26), 'user_type': 'admin'}
+05-Sep-2020 17:58:26   POST method returns : {'id': 1, 'name': 'rohit Bhai 5', 'email_id': 'rcd@gmail', 'contact': 0, 'username': 'rdhavade2', 'password': 'bhai123', 'creation_date': datetime.datetime(2020, 9, 5, 17, 58, 26), 'user_type': 'admin'} 201
+05-Sep-2020 17:59:20 INSIDE CLASS validate_username method get()
+05-Sep-2020 17:59:20   value of args parsed from GET REQ are :{'username': 'neeta', 'password': 'neeta'}
+05-Sep-2020 17:59:20   result obtained from validate_username as: {'Authentication_Status:': 'Username_Does_Not_Exist'}
+05-Sep-2020 17:59:57 INSIDE CLASS validate_username method get()
+05-Sep-2020 17:59:57   value of args parsed from GET REQ are :{'username': 'rdhavade2', 'password': 'bhai1234'}
+05-Sep-2020 17:59:57   result obtained from validate_username as: {'Authentication_Status:': 'Authentication_Failed'}
+05-Sep-2020 18:00:03 INSIDE CLASS validate_username method get()
+05-Sep-2020 18:00:03   value of args parsed from GET REQ are :{'username': 'rdhavade2', 'password': 'bhai123'}
+05-Sep-2020 18:00:03   result obtained from validate_username as: {'Authentication_Status:': 'Authentication_Success'}
+05-Sep-2020 18:10:08 started code
+05-Sep-2020 18:10:09 inside class ModelManager __init__
+05-Sep-2020 18:10:09   value of users dict is : {}05-Sep-2020 18:10:09 started code
+05-Sep-2020 18:10:09 creating dictionary message_fields
+05-Sep-2020 18:10:09   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000020C3A423A00>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+05-Sep-2020 18:10:09 creating instance of ModelManager class named message_manager
+05-Sep-2020 18:10:09 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x0000020C3BC0AA90>
