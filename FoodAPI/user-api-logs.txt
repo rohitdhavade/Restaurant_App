@@ -1,0 +1,260 @@
+started code
+creating dictionary message_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001B1D38DA3D0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of users dict is : {}created instance message_manager as : <__main__.ModelManager object at 0x000001B1D38DA520>
+started code
+creating dictionary message_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000002053632A3D0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of users dict is : {}created instance message_manager as : <__main__.ModelManager object at 0x000002053632A520>
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 47, 21), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 1
+  value of user is : {'id': 1, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 47, 21), 'user_type': 'admin'}
+  POST method returns : {'id': 1, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 47, 21), 'user_type': 'admin'} 201
+started code
+creating dictionary message_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000020CB04EA3D0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of users dict is : {}created instance message_manager as : <__main__.ModelManager object at 0x0000020CB04EA520>
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 56, 20), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 1
+  value of user is : {'id': 1, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 56, 20), 'user_type': 'admin'}
+  POST method returns : {'id': 1, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 56, 20), 'user_type': 'admin'} 201
+started code
+creating dictionary message_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000024CEC96A3D0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of users dict is : {}created instance message_manager as : <__main__.ModelManager object at 0x0000024CEC96A520>
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 1
+  value of user is : {'id': 1, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'}
+  POST method returns : {'id': 1, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'} 201
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 2
+  value of user is : {'id': 2, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'}
+  POST method returns : {'id': 2, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'} 201
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 3
+  value of user is : {'id': 3, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'}
+  POST method returns : {'id': 3, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'} 201
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 4
+  value of user is : {'id': 4, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'}
+  POST method returns : {'id': 4, 'name': 'Rohit Dhavade', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'} 201
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 5
+  value of user is : {'id': 5, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'}
+  POST method returns : {'id': 5, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 19, 57, 9), 'user_type': 'admin'} 201
+started code
+creating dictionary message_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000024EFDF06400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of users dict is : {}created instance message_manager as : <__main__.ModelManager object at 0x0000024EFDF73940>
+started code
+creating dictionary message_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001EA82736400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of users dict is : {}created instance message_manager as : <__main__.ModelManager object at 0x000001EA827A3940>
+started code
+creating dictionary message_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000021010726400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of users dict is : {}created instance message_manager as : <__main__.ModelManager object at 0x0000021010793940>
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+started code
+creating dictionary message_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000028AA4506400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of users dict is : {}created instance message_manager as : <__main__.ModelManager object at 0x0000028AA4573940>
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 9, 48), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 1
+  value of user is : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 9, 48), 'user_type': 'admin'}
+  POST method returns : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 9, 48), 'user_type': 'admin'} 201
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 9, 57), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 2
+  value of user is : {'id': 2, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 9, 57), 'user_type': 'admin'}
+  POST method returns : {'id': 2, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 9, 57), 'user_type': 'admin'} 201
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 1), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 3
+  value of user is : {'id': 3, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 1), 'user_type': 'admin'}
+  POST method returns : {'id': 3, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 1), 'user_type': 'admin'} 201
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 5), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 4
+  value of user is : {'id': 4, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 5), 'user_type': 'admin'}
+  POST method returns : {'id': 4, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 5), 'user_type': 'admin'} 201
+started code
+creating dictionary message_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x00000225D2A26400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of users dict is : {}created instance message_manager as : <__main__.ModelManager object at 0x00000225D2A93940>
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 44), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 1
+  value of user is : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 44), 'user_type': 'admin'}
+  POST method returns : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 44), 'user_type': 'admin'} 201
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 48), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 2
+  value of user is : {'id': 2, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 48), 'user_type': 'admin'}
+  POST method returns : {'id': 2, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 48), 'user_type': 'admin'} 201
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 51), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 3
+  value of user is : {'id': 3, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 51), 'user_type': 'admin'}
+  POST method returns : {'id': 3, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 51), 'user_type': 'admin'} 201
+inside UserList class post()
+  arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+  A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 11), 'user_type': 'admin'}
+inside class ModelManager add_user()
+  value of user.id is : 4
+  value of user is : {'id': 4, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 11), 'user_type': 'admin'}
+  POST method returns : {'id': 4, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 11), 'user_type': 'admin'} 201
+inside UserList class get()
+  get list of users : {1: {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 44), 'user_type': 'admin'}, 2: {'id': 2, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 48), 'user_type': 'admin'}, 3: {'id': 3, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 10, 51), 'user_type': 'admin'}, 4: {'id': 4, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 11), 'user_type': 'admin'}}03-Sep-2020 20:13:30started code
+03-Sep-2020 20:13:31creating dictionary message_fields
+03-Sep-2020 20:13:31  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000022F993FA400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+03-Sep-2020 20:13:31creating instance of ModelManager class named message_manager
+03-Sep-2020 20:13:31inside class ModelManager __init__
+03-Sep-2020 20:13:31  value of users dict is : {}03-Sep-2020 20:13:31created instance message_manager as : <__main__.ModelManager object at 0x0000022F9ACFA400>
+03-Sep-2020 20:13:47 started code
+03-Sep-2020 20:13:47 creating dictionary message_fields
+03-Sep-2020 20:13:47   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000002A0E4066400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+03-Sep-2020 20:13:47 creating instance of ModelManager class named message_manager
+03-Sep-2020 20:13:47 inside class ModelManager __init__
+03-Sep-2020 20:13:47   value of users dict is : {}03-Sep-2020 20:13:47 created instance message_manager as : <__main__.ModelManager object at 0x000002A0E597A400>
+03-Sep-2020 20:14:01 inside UserList class post()
+03-Sep-2020 20:14:01   arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+03-Sep-2020 20:14:01   A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 1), 'user_type': 'admin'}
+03-Sep-2020 20:14:01 inside class ModelManager add_user()
+03-Sep-2020 20:14:01   value of user.id is : 1
+03-Sep-2020 20:14:01   value of user is : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 1), 'user_type': 'admin'}
+03-Sep-2020 20:14:01   POST method returns : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 1), 'user_type': 'admin'} 201
+03-Sep-2020 20:14:21 inside UserList class post()
+03-Sep-2020 20:14:21   arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+03-Sep-2020 20:14:21   A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 21), 'user_type': 'admin'}
+03-Sep-2020 20:14:21 inside class ModelManager add_user()
+03-Sep-2020 20:14:21   value of user.id is : 2
+03-Sep-2020 20:14:21   value of user is : {'id': 2, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 21), 'user_type': 'admin'}
+03-Sep-2020 20:14:21   POST method returns : {'id': 2, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 21), 'user_type': 'admin'} 201
+03-Sep-2020 20:14:38 inside UserList class post()
+03-Sep-2020 20:14:38   arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+03-Sep-2020 20:14:38   A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 38), 'user_type': 'admin'}
+03-Sep-2020 20:14:38 inside class ModelManager add_user()
+03-Sep-2020 20:14:38   value of user.id is : 3
+03-Sep-2020 20:14:38   value of user is : {'id': 3, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 38), 'user_type': 'admin'}
+03-Sep-2020 20:14:38   POST method returns : {'id': 3, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 38), 'user_type': 'admin'} 201
+03-Sep-2020 20:15:15 inside UserList class get()
+03-Sep-2020 20:15:15   get list of users : {1: {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 1), 'user_type': 'admin'}, 2: {'id': 2, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 21), 'user_type': 'admin'}, 3: {'id': 3, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 20, 14, 38), 'user_type': 'admin'}}03-Sep-2020 20:16:05 started code
+03-Sep-2020 20:16:06 creating dictionary message_fields
+03-Sep-2020 20:16:06   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001FCFB98A400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+03-Sep-2020 20:16:06 creating instance of ModelManager class named message_manager
+03-Sep-2020 20:16:06 inside class ModelManager __init__
+03-Sep-2020 20:16:06   value of users dict is : {}03-Sep-2020 20:16:06 created instance message_manager as : <__main__.ModelManager object at 0x000001FCFD28A400>
+03-Sep-2020 21:16:55 started code
+03-Sep-2020 21:16:56 creating dictionary message_fields
+03-Sep-2020 21:16:56   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001C5D5A1A400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+03-Sep-2020 21:16:56 creating instance of ModelManager class named message_manager
+03-Sep-2020 21:16:56 inside class ModelManager __init__
+03-Sep-2020 21:16:56   value of users dict is : {}03-Sep-2020 21:16:56 created instance message_manager as : <__main__.ModelManager object at 0x000001C5D731B490>
+03-Sep-2020 21:16:56 started code
+03-Sep-2020 21:16:57 creating dictionary message_fields
+03-Sep-2020 21:16:57   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001538FA66400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+03-Sep-2020 21:16:57 creating instance of ModelManager class named message_manager
+03-Sep-2020 21:16:57 inside class ModelManager __init__
+03-Sep-2020 21:16:57   value of users dict is : {}03-Sep-2020 21:16:57 created instance message_manager as : <__main__.ModelManager object at 0x000001539136B490>
+03-Sep-2020 21:17:13 inside UserList class post()
+03-Sep-2020 21:17:13   arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+03-Sep-2020 21:17:13   A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 21, 17, 13), 'user_type': 'admin'}
+03-Sep-2020 21:17:13 inside class ModelManager add_user()
+03-Sep-2020 21:17:13   value of user.id is : 1
+03-Sep-2020 21:17:13   value of user is : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 21, 17, 13), 'user_type': 'admin'}
+03-Sep-2020 21:17:13   POST method returns : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 21, 17, 13), 'user_type': 'admin'} 201
+03-Sep-2020 21:18:31 started code
+03-Sep-2020 21:18:32 creating dictionary message_fields
+03-Sep-2020 21:18:32   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000017EB850A400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+03-Sep-2020 21:18:32 creating instance of ModelManager class named message_manager
+03-Sep-2020 21:18:32 inside class ModelManager __init__
+03-Sep-2020 21:18:32   value of users dict is : {}03-Sep-2020 21:18:32 created instance message_manager as : <__main__.ModelManager object at 0x0000017EB9E0B490>
+03-Sep-2020 21:18:34 started code
+03-Sep-2020 21:18:35 creating dictionary message_fields
+03-Sep-2020 21:18:35   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000022BA3D36400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+03-Sep-2020 21:18:35 creating instance of ModelManager class named message_manager
+03-Sep-2020 21:18:35 inside class ModelManager __init__
+03-Sep-2020 21:18:35   value of users dict is : {}03-Sep-2020 21:18:35 created instance message_manager as : <__main__.ModelManager object at 0x0000022BA563B490>
+03-Sep-2020 21:19:31 inside class ModelManager check_username()03-Sep-2020 21:21:39 started code
+03-Sep-2020 21:21:39 creating dictionary message_fields
+03-Sep-2020 21:21:39   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000012672356400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+03-Sep-2020 21:21:39 creating instance of ModelManager class named message_manager
+03-Sep-2020 21:21:39 inside class ModelManager __init__
+03-Sep-2020 21:21:39   value of users dict is : {}03-Sep-2020 21:21:39 created instance message_manager as : <__main__.ModelManager object at 0x0000012673C6B490>
+03-Sep-2020 21:22:08 inside UserList class post()
+03-Sep-2020 21:22:08   arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+03-Sep-2020 21:22:08   A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 21, 22, 8), 'user_type': 'admin'}
+03-Sep-2020 21:22:08 inside class ModelManager add_user()
+03-Sep-2020 21:22:08   value of user.id is : 1
+03-Sep-2020 21:22:08   value of user is : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 21, 22, 8), 'user_type': 'admin'}
+03-Sep-2020 21:22:08   POST method returns : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 21, 22, 8), 'user_type': 'admin'} 201
+03-Sep-2020 21:22:11 inside class ModelManager check_username()03-Sep-2020 21:22:11 inside class ModelManager check_username()03-Sep-2020 21:24:46 started code
+03-Sep-2020 21:24:46 creating dictionary message_fields
+03-Sep-2020 21:24:46   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000022212E2A400>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+03-Sep-2020 21:24:46 creating instance of ModelManager class named message_manager
+03-Sep-2020 21:24:46 inside class ModelManager __init__
+03-Sep-2020 21:24:46   value of users dict is : {}03-Sep-2020 21:24:46 created instance message_manager as : <__main__.ModelManager object at 0x000002221472B490>
+03-Sep-2020 21:24:57 inside UserList class post()
+03-Sep-2020 21:24:57   arguments parsed in POST request are : {'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': None, 'username': 'rdhavade', 'password': 'bhai', 'user_type': 'admin'}
+03-Sep-2020 21:24:57   A UserModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 21, 24, 57), 'user_type': 'admin'}
+03-Sep-2020 21:24:57 inside class ModelManager add_user()
+03-Sep-2020 21:24:57   value of user.id is : 1
+03-Sep-2020 21:24:57   value of user is : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 21, 24, 57), 'user_type': 'admin'}
+03-Sep-2020 21:24:57   POST method returns : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 21, 24, 57), 'user_type': 'admin'} 201
+03-Sep-2020 21:25:00 inside class ModelManager check_username()03-Sep-2020 21:25:13 inside class ModelManager check_username()

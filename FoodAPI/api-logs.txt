@@ -1,0 +1,23 @@
+inside RestaurantList class post()
+  arguments parsed in POST request are : {'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}
+  A RestaurantModel class object is created with args in POST REQ as : {'id': 0, 'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 2, 16, 10, 48, 486236, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}
+inside class ModelManager add_restaurant()
+  value of restaurant.id is : 1
+  value of restaurant is : {'id': 1, 'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 2, 16, 10, 48, 486236, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}
+  POST method returns : {'id': 1, 'name': 'Royal Foods', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 2, 16, 10, 48, 486236, tzinfo=<UTC>), 'cuisine': ['north indian', 'chinese', 'south'], 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}} 201
+  Data type for contact is : <class 'list'>
+  Data type for menu is : <class 'dict'>
+  Data type for cuisine is : <class 'list'>
+inside Restaurant class patch()
+inside Restaurant class abort_if_restaurant_doesnt_exist
+  checking whether id exists for given id : 1
+inside class ModelManager get_restaurant()
+  value of id is : 1
+  args recevied in PATCH request are : {'name': 'Royal Punjabi Dhaba', 'location': None, 'cuisine': None, 'contact': None, 'menu': None}
+  updated RestaurantModel object is : {'id': 1, 'name': 'Royal Punjabi Dhaba', 'location': 'Sector-8, Nerul', 'creation_date': datetime.datetime(2020, 9, 2, 16, 10, 48, 486236, tzinfo=<UTC>), 'cuisine': None, 'contact': ['9323932323', '9400095000'], 'menu': {'Idli Vada': '30Rs', 'samosa pav': '10rs'}}
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001C1073C6940>, 'name': <class 'flask_restful.fields.String'>, 'location': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'cuisine': <class 'flask_restful.fields.String'>, 'contact': <class 'flask_restful.fields.String'>, 'menu': <class 'flask_restful.fields.String'>}
+creating instance of ModelManager class named message_manager
+inside class ModelManager __init__
+  value of restaurants dict is : {}created instance message_manager as : <__main__.ModelManager object at 0x000001C108C9A520>

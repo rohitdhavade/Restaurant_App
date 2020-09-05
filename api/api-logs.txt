@@ -1,0 +1,25 @@
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x0000023D54F8A940>, 'message': <class 'flask_restful.fields.String'>, 'duration': <class 'flask_restful.fields.Integer'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'message_category': <class 'flask_restful.fields.String'>, 'printed_times': <class 'flask_restful.fields.Integer'>, 'printed_once': <class 'flask_restful.fields.Boolean'>}
+creating instance of MessageManager class named message_manager
+inside class MessageManager __init__
+  value of messages dict is : {}created instance message_manager as : <__main__.MessageManager object at 0x0000023D568494F0>
+started code
+creating dictionary messag_fields
+  dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001807F9C6940>, 'message': <class 'flask_restful.fields.String'>, 'duration': <class 'flask_restful.fields.Integer'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'message_category': <class 'flask_restful.fields.String'>, 'printed_times': <class 'flask_restful.fields.Integer'>, 'printed_once': <class 'flask_restful.fields.Boolean'>}
+creating instance of MessageManager class named message_manager
+inside class MessageManager __init__
+  value of messages dict is : {}created instance message_manager as : <__main__.MessageManager object at 0x00000180027294F0>
+inside MessageList class post()
+  arguments parse in POST request are : {'message': "Welcome to Rohit's Home!", 'duration': 10, 'message_category': 'Information'}
+  A MessageModel class object is created with args in POST REQ as : <models.MessageModel object at 0x0000018002845A90>
+inside class MessageManager insert_message()
+  value of message.id is : 1
+  value of message is : <models.MessageModel object at 0x0000018002845A90>
+  POST method returns : (<models.MessageModel object at 0x0000018002845A90>, 201)
+inside Message class get()
+  getting message for id : 1
+inside Message class abort_if_message_doesnt_exist
+  checking whether id exists for given id : 1
+inside class MessageManager get_message()
+  value of id is : 1
