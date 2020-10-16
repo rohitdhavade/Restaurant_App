@@ -123,9 +123,9 @@ class RestaurantList(Resource):
         write_to_file('api-logs.txt','inside RestaurantList class get()\n')
         write_to_file('api-logs.txt','  get list of restaurants : ' + str(message_manager.restaurants))
         return [v for v in message_manager.restaurants.values()]
- 
+
     @marshal_with(message_fields) 
-    def post(self): 
+    def post(self):
         write_to_file('api-logs.txt','inside RestaurantList class post()\n')
         parser = reqparse.RequestParser()
         parser.add_argument('name', type=str, required=True, help='Name cannot be blank!') 

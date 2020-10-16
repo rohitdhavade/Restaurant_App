@@ -18,6 +18,7 @@ def write_to_file(file_name:str,content:str):
         current_date, date_format = set_date()
         outfileh.write(current_date.strftime(date_format) + ' ' + content)
 filename = 'login.py_logs.txt'
+
 # Provide an interface for login methods which can be implemented in concrete classes
 class LoginInterface(ABC):
     def __init__(self,username:str,password:str):
@@ -36,7 +37,7 @@ class LoginWithInMemoryDb(LoginInterface):
     users_dict = model_manager_object.users
     write_to_file(filename,'  obtained users_dict as : ' + str(users_dict) + '\n')
     result:dict = {'Authentication_Status:' : 'Authentication_Failed'} # by default we assume authentication fails
-    def validate_username(self):
+    def validate_username(self)  -> {'Authentication_Status':'Success or Failed'}:
         for id in self.users_dict:
             user_object = self.users_dict[id]
             if user_object.username == self.username:

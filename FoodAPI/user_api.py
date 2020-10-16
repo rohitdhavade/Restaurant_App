@@ -75,7 +75,7 @@ class User(Resource):
     def patch(self, id):
         write_to_file('user-api-logs.txt','inside User class patch()\n')
         self.abort_if_user_doesnt_exist(id)
-        user = message_manager.get_user(id) # message in an instance of UserModel class that has the given id.
+        user = message_manager.get_user(id) # user is an instance of UserModel class that has the given id.
         parser = reqparse.RequestParser() # parser is used to read the arguments coming in the PATCH REQUEST
         parser.add_argument('name', type=str)
         parser.add_argument('email_id', type=str)

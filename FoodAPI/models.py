@@ -1,6 +1,7 @@
 from datetime import datetime
 class RestaurantModel:
-    def __init__(self, name:str, location:str, creation_date:datetime, cuisine:list, contact:list, menu:dict): # photos:list, average_cost:int):
+    def __init__(self, name:str, location:str, creation_date:datetime, cuisine:list, 
+    contact:list, menu:dict): # photos:list, average_cost:int):
         # We will automatically generate the new id
         self.id:int = 0 
         self.name = name 

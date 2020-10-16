@@ -257,4 +257,31 @@ inside UserList class get()
 03-Sep-2020 21:24:57   value of user.id is : 1
 03-Sep-2020 21:24:57   value of user is : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 21, 24, 57), 'user_type': 'admin'}
 03-Sep-2020 21:24:57   POST method returns : {'id': 1, 'name': 'Rohit bhau', 'email_id': 'rohitcdhavade@gmail.com', 'contact': 0, 'username': 'rdhavade', 'password': 'bhai', 'creation_date': datetime.datetime(2020, 9, 3, 21, 24, 57), 'user_type': 'admin'} 201
-03-Sep-2020 21:25:00 inside class ModelManager check_username()03-Sep-2020 21:25:13 inside class ModelManager check_username()
+03-Sep-2020 21:25:00 inside class ModelManager check_username()03-Sep-2020 21:25:13 inside class ModelManager check_username()16-Oct-2020 17:16:51 started code
+16-Oct-2020 17:16:51 inside class ModelManager __init__
+16-Oct-2020 17:16:51   value of users dict is : {}16-Oct-2020 17:16:51 started code
+16-Oct-2020 17:16:51 creating dictionary message_fields
+16-Oct-2020 17:16:51   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001CEFF0E77C0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+16-Oct-2020 17:16:51 creating instance of ModelManager class named message_manager
+16-Oct-2020 17:16:51 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x000001CE80184C10>
+16-Oct-2020 17:16:53 started code
+16-Oct-2020 17:16:53 inside class ModelManager __init__
+16-Oct-2020 17:16:53   value of users dict is : {}16-Oct-2020 17:16:53 started code
+16-Oct-2020 17:16:53 creating dictionary message_fields
+16-Oct-2020 17:16:53   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001642849B8B0>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+16-Oct-2020 17:16:53 creating instance of ModelManager class named message_manager
+16-Oct-2020 17:16:53 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x000001642849BB80>
+16-Oct-2020 17:59:12 started code
+16-Oct-2020 17:59:12 inside class ModelManager __init__
+16-Oct-2020 17:59:12   value of users dict is : {}16-Oct-2020 17:59:12 started code
+16-Oct-2020 17:59:12 creating dictionary message_fields
+16-Oct-2020 17:59:12   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x00000247274EA820>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+16-Oct-2020 17:59:12 creating instance of ModelManager class named message_manager
+16-Oct-2020 17:59:12 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x00000247274EAAF0>
+16-Oct-2020 18:00:11 started code
+16-Oct-2020 18:00:11 inside class ModelManager __init__
+16-Oct-2020 18:00:11   value of users dict is : {}16-Oct-2020 18:00:11 started code
+16-Oct-2020 18:00:11 creating dictionary message_fields
+16-Oct-2020 18:00:11   dictionary message_fields created as : {'id': <class 'flask_restful.fields.Integer'>, 'uri': <flask_restful.fields.Url object at 0x000001A2E781A820>, 'name': <class 'flask_restful.fields.String'>, 'email_id': <class 'flask_restful.fields.String'>, 'creation_date': <class 'flask_restful.fields.DateTime'>, 'contact': <class 'flask_restful.fields.String'>, 'username': <class 'flask_restful.fields.String'>, 'user_type': <class 'flask_restful.fields.String'>}
+16-Oct-2020 18:00:11 creating instance of ModelManager class named message_manager
+16-Oct-2020 18:00:11 created instance message_manager as : <modelmanager.usermodelmanager.ModelManager object at 0x000001A2E781AAF0>
